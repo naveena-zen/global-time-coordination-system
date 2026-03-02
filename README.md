@@ -1,16 +1,50 @@
-# timezone
+# Global Time Coordination and Synchronization System
 
-A new Flutter project.
+A cross-platform Flutter application designed to provide accurate global time visualization and synchronized weather information for major cities worldwide.
 
-## Getting Started
+This system helps global travelers, remote teams, and international businesses coordinate across time zones efficiently using real-time UTC-based calculations and an intuitive dual clock interface.
 
-This project is a starting point for a Flutter application.
+## Overview
 
-A few resources to get you started if this is your first Flutter project:
+The Global Time Coordination and Synchronization System integrates:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Real-time UTC-based time conversion
+- Analog and digital clock visualization
+- Mock weather data display
+- City-based search functionality
+- Modular and scalable Flutter architecture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The application demonstrates advanced Flutter capabilities including custom painting, state management, and real-time UI updates.
+
+## Features
+
+- Real-Time Global Time Synchronization
+- Dual Clock Display (Analog + Digital)
+- Weather Information (Mock Data)
+- City & Country Search Support
+- Material Design UI
+- Modular and Extendable Architecture
+
+## Technical Highlights
+
+- UTC-based time calculation for precision
+- `Timer.periodic` for real-time updates
+- `CustomPainter` for analog clock rendering
+- Structured Map-based data modeling
+- Cross-platform Flutter support
+
+## Project Structure
+│
+├── lib/ # Main Dart application code
+├── android/ # Android platform files
+├── ios/ # iOS platform files
+├── windows/ # Windows desktop support
+├── linux/ # Linux desktop support
+├── macos/ # macOS desktop support
+├── web/ # Web support (if enabled)
+├── test/ # Flutter test files
+├── pubspec.yaml # Dependencies and metadata
+├── pubspec.lock # Dependency lock file
+├── .metadata # Flutter project metadata
+├── .gitignore # Git ignored files
+└── README.md # Project documentation
