@@ -36,7 +36,6 @@ The application demonstrates advanced Flutter capabilities including custom pain
 ## Project Structure
 
 ```text
-.
 ├── lib/            # Main Dart application code
 ├── android/        # Android platform files
 ├── ios/            # iOS platform files
@@ -51,3 +50,4 @@ The application demonstrates advanced Flutter capabilities including custom pain
 ├── .gitignore      # Git ignored files
 └── README.md       # Project documentation
 ```
+
