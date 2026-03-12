@@ -34,17 +34,20 @@ The application demonstrates advanced Flutter capabilities including custom pain
 - Cross-platform Flutter support
 
 ## Project Structure
-│
-├── lib/ # Main Dart application code
-├── android/ # Android platform files
-├── ios/ # iOS platform files
-├── windows/ # Windows desktop support
-├── linux/ # Linux desktop support
-├── macos/ # macOS desktop support
-├── web/ # Web support (if enabled)
-├── test/ # Flutter test files
-├── pubspec.yaml # Dependencies and metadata
-├── pubspec.lock # Dependency lock file
-├── .metadata # Flutter project metadata
-├── .gitignore # Git ignored files
-└── README.md # Project documentation
+
+```text
+.
+├── lib/            # Main Dart application code
+├── android/        # Android platform files
+├── ios/            # iOS platform files
+├── windows/        # Windows desktop support
+├── linux/          # Linux desktop support
+├── macos/          # macOS desktop support
+├── web/            # Web support (if enabled)
+├── test/           # Flutter test files
+├── pubspec.yaml    # Dependencies and project metadata
+├── pubspec.lock    # Dependency lock file
+├── .metadata       # Flutter project metadata
+├── .gitignore      # Git ignored files
+└── README.md       # Project documentation
+```
