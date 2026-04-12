@@ -1,7 +1,6 @@
 # Global Time Coordination and Synchronization System
 
 A cross-platform Flutter application designed to provide accurate global time visualization and synchronized weather information for major cities worldwide.
-
 This system helps global travelers, remote teams, and international businesses coordinate across time zones efficiently using real-time UTC-based calculations and an intuitive dual clock interface.
 
 ## Overview
